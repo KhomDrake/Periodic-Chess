@@ -1,6 +1,8 @@
 public class Button
 {
-  public int sceneToLoad;
+  // EN: Scene to be loaded, if this button is of type ChangeScene 
+  // PT-BR: Cena que vai ser carregada, caso esse botão for do tipo ChangeScene
+  public int sceneToLoad; 
   public PImage imageButton;
   public boolean haveText, isDrawing;
   public String textButton;
